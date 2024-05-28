@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="switcher.css" />
+    
+  </head>
+  <body>
+    
+   
+    <nav id="desktop-nav">
+      <div class="logo">Pushpkant Sahu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Pushpkant Sahu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+         <!-- profile -->
+
+         <section id="profile">
+          <div class="section__pic-container">
+            <img src=".//assets/PUSSU  CIRCLE copy.png" alt="pushpkant sahu profile picture">
+          </div>
+
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Pushpkant sahu</h1>
+            <p class="section__text__p2">Electrical Engineer</p>
+
+            <div class="btn-container">
+            <button
+             class="btn btn-color-2" 
+            onclick="window.open('./assets/pushpkant_cv .pdf')"
+            > Download cv
+          </button>
+            <button class="btn btn-color-1" 
+            onclick="location.href='./#contact'"
+            >contact info</button>
+          </div>
+
+            <div class="socials-container">
+              <img src="./assets/linkedin.png"
+              class="icon" onclick="location.href='https://www.linkedin.com/in/pushpkant-sahu-a83338273/'">
+
+          <img src="./assets/github.png"
+          class="icon" onclick="location.href='https://github.com/Pushpkant-sahu'">
+        </div>
+      </div>
+         </section>
+<section id="about">
+<p class="section__text__p1">Get To Know More</p>
+<h1 class="title">About Me </h1>
+<div class="section-container">
+  <div class="section__pic-container">
+  <img 
+  src="/assets/_DSC0683 copy.jpg "
+  alt="profile picture"
+  class="about-pic">
+</div>
+<div class="about-details-container">
+  <div class="about-containers">
+    <div class="details-container">
+      <img 
+      src="/assets/experience.png" 
+      alt="experience icon"
+      class="icon">
+      <H3>Experience</H3>
+      <p>6 months <br>frontend development </p>
+    </div>
+    <div class="details-container">
+      <img 
+      src="/assets/education.png" 
+      alt="education icon"
+      class="icon">
+      <H3>Education</H3>
+      <p><B>B.tech </B><br>From-Shri Shankaracharya Technical Campus  </p>
+    </div>
+  </div>
+  <div class="text-container">
+    <p>I'm an electrical engineering student with a strong interest in technology and
+      design. My background as a WordPress freelancer has instilled a dedicated
+      work ethic and an entry-level proficiency in web development. Alongside this,
+      I possess hands-on experience with 3D modeling, bringing engineering and
+      creativity. Eager to contribute my passion for innovation to engineering
+      projects, I'm committed to continuous learning and pushing boundaries in
+      pursuit of meaningful solutions.</p>
+  </div>
+</div>
+</div>
+<img 
+src="/assets/arrow.png" 
+alt="Arrow icon" 
+class="icon arrow" 
+onclick="location.href='./#experience'">
+</section>
+                <!-- ______experience_________ -->
+<section id="experience">
+  <p class="section__text__p1">Explore my </p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container"> 
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Developement </h2>
+        <div class="article-container">
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3>CSS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3>JAVASCRIPT  </h3>
+              <p>Begginer</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3> WORDPRESS  </h3>
+              <p>Intermediate </p>
+            </div>
+          </article>
+          
+        </div>
+        
+      </div>
+      <!-- ________extar skills___________ -->
+      <div class="details-container">
+        <h2 class="experience-sub-title">Extra skills </h2>
+        <div class="article-container">
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3>3ds max</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3>Photography</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          
+          <article>
+            <img 
+            src="/assets/checkmark.png" 
+            alt="experience icon"
+            class="icon">
+            <div>
+              <h3> WORDPRESS  </h3>
+              <p>INTERMEDIATE </p>
+            </div>
+          </article>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <img 
+  src="./assets/arrow.png" 
+  alt="arrow icon" 
+  class="icon arrow"
+  onclick="location.href='./#contact'">
+
+  
+</section>
+
+
+<!-- _________________contact section_________________ -->
+
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img 
+      src="./assets/email.png" 
+      alt="Email icon"
+      class="icon contact-icon">
+      <p><a href="pushpkantsahu672@gmail.com">Mail </a></p>
+      
+    </div>
+    <div class="contact-info-container">
+      <img 
+      src="./assets/linkedin.png" 
+      alt="linkedin icon"
+      class="icon contact-icon">
+      <p><a href="https://www.linkedin.com/in/pushpkant-sahu-a83338273/">LinkedIn </a></p>
+      
+    </div>
+  </div>
+ 
+  
+</section>
+<img 
+src="./assets/arrow.png" 
+alt="arrow icon" 
+class="icon arrow"
+onclick="location.href='./#about'">
+<footer >
+  <nav >
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
+    
+  </nav>
+  <p>Copyright 2023. Pushpkant Sahu.All Rights Reserved. </p>
+   
+</footer>
+
+
+        <script src="script.js"></script>
+       
+    </body>
+ </html> 
